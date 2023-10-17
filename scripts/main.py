@@ -1,22 +1,13 @@
 # Imports
-from pathlib import Path
-
-from backend import TimeIt, get_logger
-
+from create_fake_data import create_fake_data
+from create_sql_table import create_sql_table
 # Variables
-logger = get_logger(Path(__file__).name)
 
 
-# Functions and classes
-@TimeIt
+# Functions
 def main() -> None:
-    logger.info("Started main!")
-    logger.debug("This is a debug message")
-    logger.info("This is an info message")
-    logger.warning("This is a warning message")
-    logger.error("This is an error message")
-    logger.critical("This is a critical message")
-    logger.info("Completed main!")
+    create_fake_data()
+    create_sql_table()
     pass
 
 
