@@ -2,6 +2,7 @@
 # Files
 config.json
 **/*tmp.*
+*.db
 # Folders
 input
 output
