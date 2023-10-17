@@ -2,9 +2,11 @@
 # Files
 config.json
 **/*tmp.*
+*.db
 # Folders
 input
 output
+tmp
 
 # Pycharm
 .idea
