@@ -1,6 +1,6 @@
 {
-  "input": "ecds-raw-faker-schema.csv",
-  "output": "ecds-raw-fake-data.csv",
+  "input": "raw-faker-schema.csv",
+  "output": "raw-synthetic-data.csv",
   "null_nullables": false,
   "number_of_rows": 10
 }
