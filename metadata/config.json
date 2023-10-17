@@ -1,4 +1,6 @@
 {
-  "output_path": null,
-  "report_name": "test_run"
+  "input": "ecds-raw-faker-schema.csv",
+  "output": "ecds-raw-fake-data.csv",
+  "null_nullables": false,
+  "number_of_rows": 10
 }
